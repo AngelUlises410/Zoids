@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica;
+    background:#e8e8e8;              /*fondo de toda la pagina menu*/
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #092327;     /*caja negra del menu*/
+    width: 90%;
+    max-width: 1000px;        /*para estirar a los lados*/
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;            /*color de texto dentro del menu*/
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;       /*para poner de forma horizontal el texto*/
+    text-align: center;          /*centrar texto*/
+}
+
+.menu li a:hover{
+    background: #ef8358;       /*cambio de color del efecto hover, cuando pasas el cursor cambia de coolor el menu*/
+}

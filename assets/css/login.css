@@ -1,0 +1,69 @@
+*{                                  /*aqui abriremos con asterisco y corchete y cerramos*/
+    margin: 0;                          /*aqui se inicia de cero todo los formularios*/
+    padding: 0;                        /*aqui se inicia de cero todo los formularios*/
+    box-sizing: border-box;            /*esta es caja que encerrar todo el formulario*/
+}
+
+
+body{
+    background-image: url(./assets/img/fondo2.jpg); /*aqui podemos insertar una imagen de fondo de pantalla en login*/
+    background-size: cover;                        /*con este codigo cubre todo el fondo */
+    background-repeat: no-repeat;                  /*con este codigo no repite imagen*/
+    background-position: center;                   /*con este codigo centra totalmente*/
+    background-attachment: fixed;
+ }
+
+
+.formulariologin{          /*el class es donde escribimos donde empezaremos a editar y el punto con texto es donde iniciamos*/
+    width: 295px;                     /*tamaño de ancho de la caja*/
+    background: #2677c9a6;           /*caja de fondo de formulario*/
+    padding: 1.1%;                     /*para alargar la caja hacia abajo*/
+    margin: auto;                    /* para cambiar de posicion el fomulario centrado izquierdo y derecho*/
+    margin-top: 20px;                /*para subir la caja cerca del menu*/
+    border-radius: 10px;             /*para doblar las esquinas d el caja*/
+    font-family: 'calibri';
+    color: white;
+    border: 3px solid rgb(12, 6, 6);         /*borde de la caja y color*/
+}
+
+.h2{                                 /*este h2 significa en donde se encuentra el titulo del formulario*/
+    font-size: 41px;                /*tamaño de letra de titulo de formulario*/
+    margin-bottom: 25px;            /*tipo de pixelaje dentro del titulo*/
+    color: #eeeaeb;                 /*color del texto dentro del boton*/
+}
+
+.controls{                       /*aqui el asterisco significa de donde tomamos la parte que editaremos dentro de la caja de escrito*/
+    width: 100%;                /*aqui podemos alargar la caja de lado derecho*/
+    background: #f2f3ef;       /*aqui podemos pintar las cajas del formulario*/ 
+    padding: 5px;                /*aqui ponemos la caja un poquito abajo para separar*/
+    border-radius: 0px;         /*aqui podemos redondear las esquinas de del formulario*/
+    margin-bottom: 16px;         /*aqui podemos agigantar la caja entera*/
+    border: 1px; solid #1f53c5;  /*esta casi no funciona*/
+    font-family: 'calibri';      /*tipo de letra*/
+    font-size: 18px;             /*para comprimir la caja en flaca*/
+}
+
+.label{
+    color: #0f0e0e;               /*color de la letra*/
+    font-family: 'arial';      /*tipo de letra*/
+    font-size: 18px;             /*para comprimir la caja en flaca*/
+}
+
+
+
+.formulariologin button{           /*aqui el asterisco significa de donde tomamos la parte que editaremos*/
+    width: 100%;                    /*tamaño de largo de boton*/
+    background: #a7bbb4;          /*color del boton de caja de adentro*/
+    border: none;
+    border-radius: 4px;         /*aqui podemos redondear las esquinas de del formulario*/
+    padding: 10px;                  /*para hacer la caja alargada haci abajo*/
+    color: white;                 /*color del texto dentro del boton*/
+    margin: 16px 0;
+    font-size: 16px;                /*el tamaño de la letra dentro del boton*/
+    border: 1px solid rgb(12, 6, 6);         /*borde de la caja y color*/
+}
+
+.formulariologin button:hover{
+    color: #111111;
+}
+

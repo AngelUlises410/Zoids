@@ -1,0 +1,46 @@
+*{                                  /*aqui abriremos con asterisco y corchete y cerramos*/
+    margin: 0;                          /*aqui se inicia de cero todo los formularios*/
+    padding: 0;                        /*aqui se inicia de cero todo los formularios*/
+  
+}
+
+
+
+.caja-autor{
+
+    background-color: blue;
+    margin: auto;      /*para centrar la caja*/
+    width: 1000px;      /*para hacer la derecha e izquierda la caja*/
+    height: 2100px;     /*pR hacer la caja hacia abajo*/
+    margin-top: 20px;  /*para separar la caja de arriba y bajarla*/
+    border: 2px double rgb(12, 12, 12);
+    border-radius: 0px;             /*para doblar las esquinas d el caja*/
+}
+
+.a{
+    background-color: rgb(15, 243, 8);
+    color: rgb(13, 15, 1);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /*estilo de letra*/
+    display: block;        /*poner caja completa */
+    margin-top: 100px;  /*para separar la caja de arriba y bajarla*/
+    width: 330px;      /*para hacer la derecha e izquierda la caja*/
+    border: 2px double rgb(12, 12, 12);
+    border-radius: 10px;             /*para doblar las esquinas d el caja*/
+    
+}
+
+.carrera{
+    float: right;        /*movemos ala derecha la caja*/
+    width: 330px;
+    height: 270px;
+    background-color: rgb(235, 240, 236);   /*color de la caja grande*/
+    border: 2px dashed rgb(202, 14, 124);    /*estilo del borde de la caja*/
+    margin-top: -270px;  /*para separar la caja de arriba y bajarla*/
+}
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+*{                                  /*aqui abriremos con asterisco y corchete y cerramos*/
+    margin: 0;                          /*aqui se inicia de cero todo los formularios*/
+    padding: 0;                        /*aqui se inicia de cero todo los formularios*/
+    box-sizing: border-box;            /*esta es caja que encerrar todo el formulario*/
+}
+
+
+
+.cajadetabla{
+    width: 85%;                /*aqui podemos alargar la caja de lado derecho*/
+    padding: 150px;                /*aqui ponemos la caja un poquito abajo para separar*/
+    margin: auto;                    /* para cambiar de posicion el fomulario centrado izquierdo y derecho*/
+    margin-top: -120px;                /*para subir la caja cerca del menu*/
+   
+}
+
+.centrado{
+    width: 10%;                /*aqui podemos alargar la caja de lado derecho*/
+    margin: auto;                    /* para cambiar de posicion el fomulario centrado izquierdo y derecho*/
+    height: 30px;              /*con este despegamos la caja haciendola hacia abajo*/
+    padding: 3px;                  /*para hacer la caja alargada haci abajo*/
+    
+}
+
+/*todo el codigo de arriba es para centrar la tabla de boobstrap con puron css*/

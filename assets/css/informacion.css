@@ -1,0 +1,18 @@
+*{                                  /*aqui abriremos con asterisco y corchete y cerramos*/
+    margin: 0;                          /*aqui se inicia de cero todo los formularios*/
+    padding: 0;                        /*aqui se inicia de cero todo los formularios*/
+  
+}
+
+
+.caja-informacion{
+
+    background-color: blue;
+    margin: auto;      /*para centrar la caja*/
+    width: 1000px;      /*para hacer la derecha e izquierda la caja*/
+    height: 8000px;     /*pR hacer la caja hacia abajo*/
+    margin-top: 20px;  /*para separar la caja de arriba y bajarla*/
+    border: 2px double rgb(12, 12, 12);
+    border-radius: 0px;             /*para doblar las esquinas d el caja*/
+}
+

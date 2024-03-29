@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div#general{                             /*caja 1*/
+    margin: auto;    /*con este centramos la caja */
+    margin-top: 20px;  /*para separar la caja de arriba y bajarla*/
+    width: 1000px;    /*con este comprimimos de izquierda y derecha la caja*/
+    height: 1500px;   /*para subir caja y reducirla*/
+    background-color: blue;  /*con este ponemos caja de color*/
+}
+
+div#ofertas{                           /*caja 2*/
+    float: right;        /*movemos ala derecha la caja*/
+    width: 350px;
+    height: 500px;
+    background-color: black;   /*con este ponemos la caja de color*/
+}
+
+div#novedades{                           /*caja 3*/
+      width: 640px;
+      height: 400px;
+      background-color: rgb(31, 183, 189);
+      border: 2px dashed rgb(202, 14, 124);
+}
+
+
+
+div#body{                       /*caja 4*/
+    margin-top: 20px;           /*con este separamos la caja de arriba y bajarla */
+    width: 640px ;
+    height: 580px;
+    background-color: chartreuse;
+    box-sizing: border-box;            /*esta es caja que encerrar toda la caja*/
+    border-radius: 10px;             /*para doblar las esquinas d el caja*/
+    border: 2px double rgb(12, 12, 12);
+}
+
+div#musica{
+    float: right;
+    width: 350px;
+    height: 300px;
+    background-color: red;
+    margin-top: -400px;  /*para separar la caja de arriba y bajarla*/
+    border: 2px dotted rgb(179, 236, 21);
+    border-radius: 35px;             /*para doblar las esquinas d el caja*/
+}
+
+div#video{
+    
+    margin: auto;      /*para centrar la caja*/
+    width: 400px;      /*para hacer la derecha e izquierda la caja*/
+    height: 300px;
+    background-color: rgb(211, 191, 14);
+    margin-top: 10px;  /*para separar la caja de arriba y bajarla*/
+    border-radius: 100px;             /*para doblar las esquinas d el caja*/
+    border: 10px inset rgb(197, 15, 142);
+}
+
+.historia{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    /*estilo de letra*/
+    font-size: 11.5px;                /*tamaño de letra de titulo de formulario*/
+    
+}
+
+/*efecto en imagenes cuando pasamos el cursor genobreaker*/
+
+img{
+    width: 160px;           /*efecto de la transicion de img*/
+    -webkit-transition: width .5s;
+}
+
+img#efecto1{
+     position: relative;
+     left: -10%;
+     margin-left: -100px;
+     margin-top: 30px;
+     border-radius: 35px;             /*para doblar las esquinas d el caja*/
+     border: 3px solid red;         /*borde de la caja y color*/
+}
+
+img#efecto2{
+    position: relative;
+     left: -6%;
+     margin-top: 30px;
+     margin-left: -0px;
+    -webkit-transition: rotate(-10deg);
+    border-radius: 35px;             /*para doblar las esquinas d el caja*/
+    border: 3px solid rgb(27, 78, 173);         /*borde de la caja y color*/
+}
+
+img#efecto3{
+    position: absolute;
+    right: 575px;   /*para mover la iamgen alado izquierdo*/
+    top: 180px;
+    -webkit-transition: rotate(-10deg);
+    border-radius: 35px;             /*para doblar las esquinas d el caja*/
+    border: 3px solid rgb(132, 224, 11);         /*borde de la caja y color*/
+}
+
+img:hover{         /*efecto hover en imagen*/
+    width:220px;    /*este es el que deja que se estire mas la imagen al momento de pasar el cursor*/
+    z-index: 2;
+}
+
+/*efecto en imagenes cuando pasamos el cursor bladeliger*/
+
+img#mundo1{
+    position: relative;
+     left: -18%;
+     margin-top: 30px;
+     margin-left: -0px;
+    -webkit-transition: rotate(-10deg);
+    border-radius: 35px;             /*para doblar las esquinas d el caja*/
+    border: 3px solid rgb(12, 6, 6);         /*borde de la caja y color*/
+}
+
+img#mundo2{
+    position: absolute;
+    right: 780px;  /*para mover a lado izquierdo*/
+    top: 583px;
+    -webkit-transition: rotate(-10deg);
+    border-radius: 35px;             /*para doblar las esquinas d el caja*/
+    border: 3px solid rgb(252, 250, 250);         /*borde de la caja y color*/
+}
+
+img#mundo3{
+    position: relative;
+     left: 15%;
+     margin-top: 30px;
+     margin-left: -0px;
+    -webkit-transition: rotate(-10deg);
+    border-radius: 35px;             /*para doblar las esquinas d el caja*/
+    border: 3px solid rgb(167, 19, 147);         /*borde de la caja y color*/
+}
+
+img#mundo4{
+    position: absolute;
+    right: 970px;
+    top: 818px;
+    -webkit-transition: rotate(-10deg);
+    border-radius: 35px;             /*para doblar las esquinas d el caja*/
+    border: 3px solid rgb(53, 85, 230);         /*borde de la caja y color*/
+}
+
+img#mundo5{
+    position: absolute;
+    right: 780px;
+    top: 818px;
+    -webkit-transition: rotate(-10deg);
+    border-radius: 35px;             /*para doblar las esquinas d el caja*/
+    border: 3px solid red;         /*borde de la caja y color*/
+}
+
+img#mundo6{
+    position: absolute;
+    right: 585px;
+    top: 818px;
+    -webkit-transition: rotate(-20deg);
+    border-radius: 35px;             /*para doblar las esquinas d el caja*/
+    border: 3px solid rgb(14, 13, 13);         /*borde de la caja y color*/
+}
+
+/*hasta aqui termina el codigo de hover en imagenes de menu inicio*/
